@@ -134,7 +134,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             SizedBox(
-              height: 350,
+              height: MediaQuery.of(context).size.height / 2.1,
               child: listFutureBuilder(context),
             ),
             Container(
