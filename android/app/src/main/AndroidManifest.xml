@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.arz_online">
+     <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="arz_online"
         android:name="${applicationName}"
